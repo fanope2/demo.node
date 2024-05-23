@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Galeria</title>
+     <link rel="stylesheet" href="../css/nuevo.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+     <header class="header">
+          <nav>
+               <div class="logo">
+                    <img class="img" src="../img/LogoRpC.png" alt="LogoRpC">
+                    <a href="#" class="logo"></i> Republica de Chile</a>
+               </div>
+               <ul class="navbar1">
+                    <li><a href="/index.html" class="hover-underline">Inicio</a></li>
+                    <li><a href="./nosotros.html" class="hover-underline">Nosotros</a>
+                         <ul class="submenu">
+                              <li><a href="./historia.html">Historia</a></li>
+                              <li><a href="./mision-vision.html">Misión y Visión</a></li>
+                              <li><a href="">Mensaje de <br>Autoridades</a></li>
+                              <li><a href="">Profesores</a></li>
+                              <li><a href="./formulario.html">Contacto</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#courses" class="hover-underline">Gestion Académica</a>
+                         <ul class="submenu">
+                              <li><a href="">Horario</a></li>
+                              <li><a href="">Calendario <br>Academico</a></li>
+                              <li><a href="">Cursos</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="./galeria.html" class="hover-underline">Galeria</a></li>
+                    <li><a href="#courses" class="hover-underline">Admisión</a>
+                         <ul class="submenu">
+                              <li><a href="">Admisión 2024</a></li>
+                              <li><a href="">Solicita <br>Información</a></li>
+                         </ul>
+                    </li>
+               </ul>
+               <div class="dark-bottom">
+                    <button id="dark-mode-toggle" style="position:fixed;margin-top:0px;"><i
+                              class="fa-solid fa-moon"></i></button>
+               </div>
+          </nav>
+     </header>
+     <div class="galeriaT">
+          <div class="galeriaT-texto">
+               <h1>Galeria</h1>
+          </div>
+     </div>
+     <hr class="line">
+     <section id="primera-seccion">
+          <div class="container-galeria">
+               <div id="contenido">
+                    <h2>Galeria</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae maiores vero porro aperiam
+                         rem
+                         cupiditate praesentium, ab adipisci fuga consectetur delectus eligendi sequi, quia architecto.
+                    </p>
+               </div>
+               <div class="slider">
+                    <img src="../img/fondoRpC.jpg" alt="Imagen-1" class="active">
+                    <img src="../img/conocer.png" alt="Imagen-2">
+                    <img src="../img/fondoRpC.jpg" alt="Imagen-3">
+                    <div class="slider-controls">
+                         <button onclick="anteriorSlide()"><i class="fa-solid fa-less-than"></i></button>
+                         <button onclick="siguienteSlide()"><i class="fa-solid fa-greater-than"></i></button>
+                    </div>
+               </div>
+          </div>
+     </section>
+     <footer class="footer">
+          <div class="container">
+               <h1>Contáctanos</h1>
+               <div class="footer-row">
+                    <div class="footer-links">
+                         <h4>Contacto</h4>
+                         <ul>
+                              <li><a href="#">Ruc:</a></li>
+                              <li><a href="#">Cel:</a></li>
+                              <li><i class="fa-regular fa-envelope"></i> Gmail</li>
+                              <li><i class="fa-solid fa-phone"></i> Telefono:</li>
+                         </ul>
+                    </div>
+                    <div class="footer-links">
+                         <h4>Ayuda</h4>
+                         <ul>
+                              <li><a href="./atencion.html">Atencion al cliente</a></li>
+                              <li><a href="#">Consultas</a></li>
+                              <li><a href="#">politica </a></li>
+                         </ul>
+                    </div>
+                    <div class="footer-links">
+                         <h4>Estamos Aquí</h4>
+                         <ul>
+                              <iframe
+                                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d445.4653834649778!2d-76.38681578275298!3d-13.082216777267233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff935f24d8467%3A0xa4a5c495b5cf642a!2sIE%20Rep%C3%BAblica%20de%20Chile!5e0!3m2!1ses!2spe!4v1713301616445!5m2!1ses!2spe"
+                                   width="325" height="300" style="border:10;" allowfullscreen="" loading="lazy"
+                                   referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </ul>
+                    </div>
+                    <div class="footer-links">
+                         <h4>Siguenos en nuestras redes</h4>
+                         <div class="social-link">
+                              <a href="https://www.facebook.com/20190republicadechile/?locale=es_LA"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </footer>
+     <div class="footer-copy">
+          <p>Copyright &copy; 2024 | IE República de Chile - San Vicente de Cañete - Lima - Perú</p>
+     </div>
+     <script src="../js/slider.js"></script>
+     <script src="../js/navbar.js"></script>
+</body>
+
+</html>
